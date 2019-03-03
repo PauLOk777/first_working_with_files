@@ -35,7 +35,7 @@ int main() {
 	if (number == 2) {
 		while (!fs.eof()) {
 			msg = "";
-			fs >> msg;
+			getline(fin, msg);
 			cout << msg << endl;
 		}
 	}
